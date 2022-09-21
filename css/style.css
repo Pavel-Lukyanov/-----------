@@ -119,3 +119,36 @@ body {
     z-index: 10;
     transition: 0.3s;
 }
+
+@media(max-width: 1024px) {
+    .card {
+        width: 100px;
+        height: 150px;
+    }
+}
+
+@media(max-height: 800px) {
+    .card {
+        width: 100px;
+        height: 130px;
+    }
+
+    .container {
+        gap: 15px;
+        padding: 15px;
+    }
+}
+
+@media(max-width: 600px) {
+    .card {
+        width: 90px;
+        height: 100px;
+    }
+}
+
+@media(max-width: 425px) {
+    .card {
+        width: 60px;
+        height: 90px;
+    }
+}
