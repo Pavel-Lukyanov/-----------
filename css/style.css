@@ -1,0 +1,117 @@
+#root {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(../img/map.png);
+    background-size: cover;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding: 30px;
+    margin: auto;
+    height: 80vh;
+    width: 80vw;
+    justify-items: center;
+}
+
+.card {
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 600;
+    font-family:'Courier New', Courier, monospace;
+    transition: 0.3s;
+    position: relative;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(../img/front-card.png);
+    background-size: contain;
+    border-radius: 12px;
+    width: 130px;
+    height: 193px;
+    user-select: none;
+}
+
+.card:hover {
+    opacity: 0.8;
+}
+
+.closure {
+    position: absolute;
+    background-color: green;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-image: url(../img/card.png);
+    background-size: contain;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.invisible {
+    background-color: #FFF070;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    position: absolute;
+    bottom: 10px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 300px;
+    max-height: 80px;
+    display: none;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 32px;
+    transition: 0.3s;
+    z-index: 11;
+}
+
+.invisible:hover {
+    opacity: 0.8;
+}
+
+.start__button{
+    background-color: #FFF070;
+    padding: 15px;
+    border: none;
+    border-radius: 12px;
+    margin: auto;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 32px;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    max-width: 300px;
+    max-height: 80px;
+    transition: 0.3s;
+}
+
+.start__button:hover {
+    opacity: 0.8;
+}
+
+.invisible__container {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.836);
+    z-index: 10;
+    transition: 0.3s;
+}
