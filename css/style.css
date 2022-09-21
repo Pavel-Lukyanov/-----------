@@ -35,7 +35,7 @@ body {
     background-color: transparent;
     background-repeat: no-repeat;
     background-image: url(../img/front-card.png);
-    background-size: contain;
+    background-size: 100% 100%;
     border-radius: 12px;
     width: 130px;
     height: 193px;
@@ -56,7 +56,7 @@ body {
     background-color: transparent;
     background-repeat: no-repeat;
     background-image: url(../img/card.png);
-    background-size: contain;
+    background-size: 100% 100%;
     border-radius: 12px;
     transition: 0.3s;
 }
@@ -122,12 +122,12 @@ body {
 
 @media(max-width: 1024px) {
     .card {
-        width: 100px;
+        width: 110px;
         height: 150px;
     }
 }
 
-@media(max-height: 800px) {
+@media(max-height: 850px) {
     .card {
         width: 100px;
         height: 130px;
